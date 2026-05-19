@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftify - Handmade Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== PAGE 1: HERO ===== -->
+    <main id="hero-page" class="hero-container">
+        <section class="left-panel">
+            <div class="logo-wrapper">
+                <img src="logo.svg" alt="Craftify Logo" class="logo" width="500px">
+            </div>
+            <div class="image-wrapper">
+                <img src="images/1.jpg" alt="Woodworking" class="hero-image">
+            </div>
+            <div class="hero-dots">
+                <span></span><span></span><span></span>
+            </div>
+        </section>
+        <section class="right-panel">
+            <div class="right-texture"></div>
+            <div class="content">
+                <p class="content-eyebrow">Welcome to</p>
+                <h1 class="brand-name">Craftify</h1>
+                <div class="content-divider"></div>
+                <p class="tagline">Your online home for handmade skills — learn, create, flourish.</p>
+                <button id="enrollBtn" class="enroll-button">
+                    <span>Begin Your Journey</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <p class="hero-note">No experience needed. Just curiosity.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== PAGE 2: LANGUAGE SELECTION ===== -->
+    <section id="page-language">
+        <div class="lang-header">
+            <img src="logo.svg" alt="Craftify" class="mini-logo">
+        </div>
+        <div class="lang-content-wrapper">
+            <div class="text-selection-side">
+                <p class="lang-eyebrow">Getting Started</p>
+                <h3 class="lang-heading">Choose your preferred language</h3>
+                <p class="lang-sub">We'll tailor your entire experience to your choice.</p>
+                <div class="lang-btn-stack">
+                    <button class="lang-option-btn">
+                        <span class="lang-flag">EN</span>
+                        <span>English</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                    <button class="lang-option-btn">
+                        <span class="lang-flag">AR</span>
+                        <span>العربية</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="image-display-side">
+                <div class="lang-image-frame">
+                    <img src="images/2.png" alt="Crochet" class="yarn-brush-img">
+                </div>
+                <div class="lang-image-badge">6 crafts to explore</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 3: HOME (EN) ===== -->
+    <section id="page-home" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home active">Home</a></li>
+                <li><a href="#" class="nav-crafts">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <main class="home-hero">
+            <div class="hero-overlay">
+                <div class="hero-text-content">
+                    <p class="hero-pill">✦ Learn at your own pace</p>
+                    <h2>Welcome to<br><em>Craftify</em></h2>
+                    <p>A platform designed to help you learn crafts in an organized, joyful way.</p>
+                    <button class="craft-btn nav-crafts">Explore Crafts →</button>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- ===== PAGE 4: HOME (AR) ===== -->
+    <section id="page-home-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home active">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <main class="home-hero-ar">
+            <div class="hero-overlay-ar">
+                <div class="hero-text-content">
+                    <p class="hero-pill">✦ تعلم بوتيرتك الخاصة</p>
+                    <h2>مرحباً بك في<br><em>Craftify</em></h2>
+                    <p>منصة مصممة لمساعدتك على تعلم الحرف بطريقة منظمة وفعالة.</p>
+                    <button class="craft-btn-ar nav-crafts">استكشف الحرف ←</button>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- ===== PAGE 5: CRAFTS (EN) ===== -->
+    <section id="page-crafts-en" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts active">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="crafts-header">
+            <h2 class="crafts-title">Choose Your Craft</h2>
+            <p class="crafts-sub">Pick one and start your learning journey today</p>
+        </div>
+        <div class="crafts-grid">
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/carpentry.jpg"></div><span>Carpentry</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/beading.jpg"></div><span>Beading</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/arabic calligraphy.jpg"></div><span>Arabic Calligraphy</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/drawing.jpg"></div><span>Drawing</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/3d printing.jpg"></div><span>3D Printing</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/pottery.jpg"></div><span>Pottery</span></button>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 6: CRAFTS (AR) ===== -->
+    <section id="page-crafts-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts active">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="crafts-header">
+            <h2 class="crafts-title">اختر حرفتك</h2>
+            <p class="crafts-sub">اختر واحدة وابدأ رحلتك التعليمية اليوم</p>
+        </div>
+        <div class="crafts-grid">
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/carpentry.jpg"></div><span>النجارة</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/beading.jpg"></div><span>التطريز</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/arabic calligraphy.jpg"></div><span>الخط العربي</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/drawing.jpg"></div><span>الرسم</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/3d printing.jpg"></div><span>الطباعة ثلاثية الأبعاد</span></button>
+            <button class="craft-card"><div class="craft-card-img-wrap"><img src="images/pottery.jpg"></div><span>صناعة الفخار</span></button>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 7: VIDEO (EN) ===== -->
+    <section id="page-video-en" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts active">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="video-content">
+            <div class="video-meta">
+                <p class="video-eyebrow">Now Learning</p>
+                <h2 id="video-title-en" class="video-main-title">Craft Name</h2>
+
+            
+                <p class="video-sub-title">Watch and learn your favorite craft</p>
+            </div>
+            <div class="video-main-layout">
+                <button class="nav-btn-side" id="prev-video-en">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    Back
+                </button>
+                <div class="video-player-container">
+                    <div id="player-en" class="youtube-player"></div>
+                </div>
+                <button class="nav-btn-side" id="next-video-en">
+                    Next
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+            <button class="back-btn-bottom" id="backToCraftsEn">← Return to Gallery</button>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 8: VIDEO (AR) ===== -->
+    <section id="page-video-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts active">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="video-content">
+            <div class="video-meta">
+                <p class="video-eyebrow">تتعلم الآن</p>
+                <h2 id="video-title-ar" class="video-main-title">اسم الحرفة</h2>
+                <p class="video-sub-title">شاهد وتعلم حرفتك المفضلة</p>
+            </div>
+            <div class="video-main-layout">
+                <button class="nav-btn-side" id="prev-video-ar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    عودة
+                </button>
+                <div class="video-player-container">
+                    <div id="player-ar" class="youtube-player"></div>
+                </div>
+                <button class="nav-btn-side" id="next-video-ar">
+                    التالي
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+            <button class="back-btn-bottom" id="backToCraftsAr">→ العودة إلى المعرض</button>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 9: PLANNER (EN) ===== -->
+    <section id="page-planner" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner active">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="planner-main-wrapper">
+            <div class="planner-page-header">
+                <h2 class="planner-page-title">My Practice Planner</h2>
+                <p class="planner-page-sub">Organize your craft sessions and track your progress</p>
+            </div>
+            <div class="planner-grid">
+                <div class="planner-card">
+                    <div class="planner-card-header">
+                        <h2>Backlog</h2>
+                        <span class="planner-badge" id="backlog-count">0</span>
+                    </div>
+                    <div class="planner-input-group">
+                        <input type="text" id="taskInput" placeholder="Add a new task..." />
+                        <button id="addTaskBtn">+</button>
+                    </div>
+                    <div id="backlog" class="planner-drop-area"></div>
+                </div>
+                <div class="planner-card">
+                    <div class="planner-card-header">
+                        <h2>Today's Schedule</h2>
+                        <span class="schedule-hint">Drag tasks here</span>
+                    </div>
+                    <div id="schedule"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 10: PLANNER (AR) ===== -->
+    <section id="page-planner-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner active">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="planner-main-wrapper">
+            <div class="planner-page-header">
+                <h2 class="planner-page-title">مخططي التدريبي</h2>
+                <p class="planner-page-sub">نظّم جلسات الحرف وتابع تقدمك</p>
+            </div>
+            <div class="planner-grid">
+                <div class="planner-card">
+                    <div class="planner-card-header">
+                        <h2>المهام المتراكمة</h2>
+                        <span class="planner-badge" id="backlog-count-ar">0</span>
+                    </div>
+                    <div class="planner-input-group">
+                        <input type="text" id="taskInputAr" placeholder="أضف مهمة جديدة..." />
+                        <button id="addTaskBtnAr">+</button>
+                    </div>
+                    <div id="backlogAr" class="planner-drop-area"></div>
+                </div>
+                <div class="planner-card">
+                    <div class="planner-card-header">
+                        <h2>جدول اليوم</h2>
+                        <span class="schedule-hint">اسحب المهام هنا</span>
+                    </div>
+                    <div id="scheduleAr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 11: POMODORO (EN) ===== -->
+    <section id="page-pomodoro" class="page-container" style="display:none;">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro active">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="pomodoro-wrapper">
+            <div class="pomodoro-eyebrow">Focus Session</div>
+            <h2 class="pomodoro-title">Stay in the flow.</h2>
+            <div class="pomodoro-card">
+                <div class="timer-display" id="timerContainerEn">
+                    <svg class="timer-ring" viewBox="0 0 200 200">
+                        <circle class="ring-bg" cx="100" cy="100" r="85"/>
+                        <circle class="ring-progress" id="ringProgressEn" cx="100" cy="100" r="85"/>
+                    </svg>
+                    <div class="time-text"><span id="minutesEn">25</span>:<span id="secondsEn">00</span></div>
+                </div>
+                <div class="task-section">
+                    <label class="task-label">What are you working on?</label>
+                    <input type="text" id="pomodoroTaskEn" class="task-input" placeholder="e.g. Practice pottery wheel technique">
+                </div>
+                <div class="task-section pomodoro-time-section">
+                    <label class="task-label">Session duration (minutes)</label>
+                    <div class="pomodoro-time-row">
+                        <button class="pomo-time-btn" data-delta="-5" data-lang="en">−5</button>
+                        <input type="number" id="pomodoroTimeEn" class="pomodoro-time-input" value="25" min="1" max="120">
+                        <button class="pomo-time-btn" data-delta="5" data-lang="en">+5</button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="startBtnEn" class="btn-primary">▶ Start Focus</button>
+                    <button id="resetBtnEn" class="btn-secondary">↺ Reset</button>
+                </div>
+            </div>
+            <p class="pomodoro-tip">💡 Set your session length, focus until the timer ends, then take a break.</p>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 12: POMODORO (AR) ===== -->
+    <section id="page-pomodoro-ar" class="page-container" dir="rtl" lang="ar" style="display:none;">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro active">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="pomodoro-wrapper">
+            <div class="pomodoro-eyebrow">جلسة تركيز</div>
+            <h2 class="pomodoro-title">ابقَ في الحالة الإبداعية.</h2>
+            <div class="pomodoro-card">
+                <div class="timer-display" id="timerContainerAr">
+                    <svg class="timer-ring" viewBox="0 0 200 200">
+                        <circle class="ring-bg" cx="100" cy="100" r="85"/>
+                        <circle class="ring-progress" id="ringProgressAr" cx="100" cy="100" r="85"/>
+                    </svg>
+                    <div class="time-text"><span id="minutesAr">25</span>:<span id="secondsAr">00</span></div>
+                </div>
+                <div class="task-section">
+                    <label class="task-label">ماذا ستنجز الآن؟</label>
+                    <input type="text" id="pomodoroTaskAr" class="task-input" placeholder="مثال: تدريب على تقنية عجلة الفخار">
+                </div>
+                <div class="task-section pomodoro-time-section">
+                    <label class="task-label">مدة الجلسة (دقائق)</label>
+                    <div class="pomodoro-time-row">
+                        <button class="pomo-time-btn" data-delta="-5" data-lang="ar">−5</button>
+                        <input type="number" id="pomodoroTimeAr" class="pomodoro-time-input" value="25" min="1" max="120">
+                        <button class="pomo-time-btn" data-delta="5" data-lang="ar">+5</button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="startBtnAr" class="btn-primary">▶ ابدأ التركيز</button>
+                    <button id="resetBtnAr" class="btn-secondary">↺ إعادة ضبط</button>
+                </div>
+            </div>
+            <p class="pomodoro-tip">💡 حدد مدة جلستك، وركّز حتى انتهاء المؤقت، ثم خذ استراحة.</p>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 13: GALLERY (EN) ===== -->
+    <section id="page-gallery" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts">Crafts</a></li>
+                <li><a href="#" class="nav-gallery active">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="gallery-wrapper">
+            <div class="gallery-page-header">
+                <p class="gallery-eyebrow">Community</p>
+                <h2 class="gallery-title">Your Craft Gallery</h2>
+                <p class="gallery-sub">Upload and showcase your handmade creations with the community.</p>
+            </div>
+            <div class="gallery-upload-bar">
+                <label class="gallery-upload-btn" for="galleryUpload">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                    Share Your Work
+                </label>
+                <input type="file" id="galleryUpload" accept="image/*" style="display:none" multiple>
+                <span class="gallery-upload-hint">JPG, PNG, WEBP — shown to community</span>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-placeholder">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                    <p>No uploads yet — be the first to share!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 14: GALLERY (AR) ===== -->
+    <section id="page-gallery-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts">الحرف</a></li>
+                <li><a href="#" class="nav-gallery active">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="gallery-wrapper">
+            <div class="gallery-page-header">
+                <p class="gallery-eyebrow">المجتمع</p>
+                <h2 class="gallery-title">معرض أعمالك</h2>
+                <p class="gallery-sub">ارفع وعرض إبداعاتك اليدوية مع المجتمع.</p>
+            </div>
+            <div class="gallery-upload-bar">
+                <label class="gallery-upload-btn" for="galleryUploadAr">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                    شارك عملك
+                </label>
+                <input type="file" id="galleryUploadAr" accept="image/*" style="display:none" multiple>
+                <span class="gallery-upload-hint">JPG ، PNG ، WEBP</span>
+            </div>
+            <div class="gallery-grid" id="galleryGridAr">
+                <div class="gallery-placeholder">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                    <p>لا توجد صور بعد — كن أول من يشارك!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 15: SHOP (EN) ===== -->
+    <section id="page-shop" class="page-container">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">Home</a></li>
+                <li><a href="#" class="nav-crafts">Crafts</a></li>
+                <li><a href="#" class="nav-gallery">Gallery</a></li>
+                <li><a href="#" class="nav-planner">Planner</a></li>
+                <li><a href="#" class="nav-pomodoro">Pomodoro</a></li>
+                <li><a href="#" class="nav-shop active">Shop</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 Language</a></li>
+            </ul>
+        </nav>
+        <div class="shop-wrapper">
+            <div class="shop-header">
+                <p class="shop-eyebrow">Handmade Marketplace</p>
+                <h2 class="shop-title">Craft Supply Shop</h2>
+                <p class="shop-sub">Everything you need to create something beautiful.</p>
+            </div>
+            <div class="shop-layout">
+                <aside class="shop-sidebar">
+                    <div class="shop-cart-summary">
+                        <h3>🛒 Cart <span id="cartCount" class="cart-badge">0</span></h3>
+                        <div id="cartItems" class="cart-items-list"><p class="cart-empty">Your cart is empty</p></div>
+                        <div class="cart-total">Total: <strong id="cartTotal">$0.00</strong></div>
+                        <button class="checkout-btn" id="checkoutBtn">Checkout →</button>
+                    </div>
+                    <div class="shop-categories">
+                        <p class="cat-label">Filter by</p>
+                        <button class="cat-btn active" data-cat="all">All Items</button>
+                        <button class="cat-btn" data-cat="wood">Woodworking</button>
+                        <button class="cat-btn" data-cat="beading">Beading</button>
+                        <button class="cat-btn" data-cat="drawing">Drawing</button>
+                        <button class="cat-btn" data-cat="pottery">Pottery</button>
+                        <button class="cat-btn" data-cat="printing">3D Printing</button>
+                    </div>
+                </aside>
+                <div class="shop-products" id="shopProducts"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE 16: SHOP (AR) ===== -->
+    <section id="page-shop-ar" class="page-container" dir="rtl" lang="ar">
+        <nav class="navbar">
+            <div class="nav-logo"><img src="logo.svg" alt="Craftify"><span class="nav-brand-text">Craftify</span></div>
+            <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-home">الرئيسية</a></li>
+                <li><a href="#" class="nav-crafts">الحرف</a></li>
+                <li><a href="#" class="nav-gallery">المعرض</a></li>
+                <li><a href="#" class="nav-planner">المخطط</a></li>
+                <li><a href="#" class="nav-pomodoro">بومودورو</a></li>
+                <li><a href="#" class="nav-shop active">المتجر</a></li>
+                <li><a href="#" class="back-to-lang lang-switch-btn">🌐 اللغة</a></li>
+            </ul>
+        </nav>
+        <div class="shop-wrapper">
+            <div class="shop-header">
+                <p class="shop-eyebrow">سوق الحرف اليدوية</p>
+                <h2 class="shop-title">متجر مستلزمات الحرف</h2>
+                <p class="shop-sub">كل ما تحتاجه لصنع شيء جميل.</p>
+            </div>
+            <div class="shop-layout">
+                <aside class="shop-sidebar">
+                    <div class="shop-cart-summary">
+                        <h3>🛒 السلة <span id="cartCountAr" class="cart-badge">0</span></h3>
+                        <div id="cartItemsAr" class="cart-items-list"><p class="cart-empty">سلة التسوق فارغة</p></div>
+                        <div class="cart-total">الإجمالي: <strong id="cartTotalAr">$0.00</strong></div>
+                        <button class="checkout-btn" id="checkoutBtnAr">إتمام الشراء ←</button>
+                    </div>
+                    <div class="shop-categories">
+                        <p class="cat-label">تصفية حسب</p>
+                        <button class="cat-btn active" data-cat="all">جميع المنتجات</button>
+                        <button class="cat-btn" data-cat="wood">النجارة</button>
+                        <button class="cat-btn" data-cat="beading">التطريز</button>
+                        <button class="cat-btn" data-cat="drawing">الرسم</button>
+                        <button class="cat-btn" data-cat="pottery">الفخار</button>
+                        <button class="cat-btn" data-cat="printing">الطباعة ثلاثية الأبعاد</button>
+                    </div>
+                </aside>
+                <div class="shop-products" id="shopProductsAr"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TROPHY MODAL ===== -->
+    <div id="trophyModal" class="trophy-modal" style="display:none;">
+        <div class="trophy-modal-backdrop"></div>
+        <div class="trophy-modal-card">
+            <div class="trophy-confetti-ring"></div>
+            <div class="trophy-icon">🏆</div>
+            <p class="trophy-eyebrow">Achievement Unlocked</p>
+            <h2 class="trophy-title" id="trophyTitle">Badge Earned!</h2>
+            <p class="trophy-desc" id="trophyDesc">You've reached a new milestone.</p>
+            <div class="trophy-badge-display" id="trophyBadgeDisplay"></div>
+            <div class="trophy-share-row">
+                <button class="trophy-share-btn trophy-share-x" onclick="shareBadgeTwitter()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Share on X
+                </button>
+                <button class="trophy-share-btn trophy-share-wa" onclick="shareBadgeWhatsApp()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </button>
+                <button class="trophy-share-btn trophy-share-dl" onclick="downloadBadge()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download
+                </button>
+            </div>
+            <button class="trophy-close-btn" id="trophyCloseBtn">Continue Crafting ✦</button>
+        </div>
+    </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
